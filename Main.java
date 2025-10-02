@@ -1,25 +1,24 @@
-
 public class Main {
   public static void main(String[] args) {
+    // String s = new java.util.Scanner(System.in).nextLine();
+    // int age = 11;
+    // String fortune = age > 5 ? "正解" : "不正解";
+    // System.out.println(fortune);
 
+    for (int age = 1; age < 5; age++ ) {
 
-    // double age = new java.util.Random().nextDouble(11.8);
+if(age == 2) {
+  continue;
+}
+      System.out.println(age * age);
+            System.out.println("");
 
-    // System.out.println(age);
-
-   int x = 5;
-   int y = 10;
-
-    System.out.println("x + yは" + (x + y));
-
-    // Main m = new Main();
-    // m.main2();
-
-    // Test.test();4ff
-
+    }
+    ;
+  // do {
+  //   age++;
+  //     System.out.println("常に実行する" + age);
+  // } while(age < 10 );
   }
 
-  // void main2 () {
-  // System.out.println(600+593);
-  // }
 }
